@@ -10,11 +10,16 @@ using System.Windows.Forms;
 
 namespace Ticari_Otomasyon
 {
-    public partial class Form1 : Form
+    public partial class Form1 : DevExpress.XtraBars.Ribbon.RibbonForm
     {
         public Form1()
         {
             InitializeComponent();
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+
         }
     }
     //zxcxzczxc
