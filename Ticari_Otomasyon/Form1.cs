@@ -22,5 +22,5 @@ namespace Ticari_Otomasyon
 
         }
     }
-    //zxcxzczxc
+    //yuyuyu
 }
