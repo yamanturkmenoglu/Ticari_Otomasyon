@@ -21,6 +21,15 @@ namespace Ticari_Otomasyon
         {
 
         }
+        Frm_Urunler Frm;
+        private void Btn_Urunler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+          
+                Frm = new Frm_Urunler();
+                Frm.MdiParent = this;
+                Frm.Show();
+           
+        }
     }
     //yuyuyu
 }
