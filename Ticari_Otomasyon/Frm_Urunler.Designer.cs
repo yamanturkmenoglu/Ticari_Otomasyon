@@ -72,7 +72,7 @@ namespace Ticari_Otomasyon
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(767, 560);
+            this.gridControl1.Size = new System.Drawing.Size(1548, 863);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -107,224 +107,224 @@ namespace Ticari_Otomasyon
             this.groupControl1.Controls.Add(this.Txt_Model);
             this.groupControl1.Controls.Add(this.labelControl1);
             this.groupControl1.Controls.Add(this.Txt_Id);
-            this.groupControl1.Location = new System.Drawing.Point(773, 0);
+            this.groupControl1.Location = new System.Drawing.Point(1554, 0);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(294, 560);
+            this.groupControl1.Size = new System.Drawing.Size(380, 863);
             this.groupControl1.TabIndex = 1;
             this.groupControl1.Text = "Bilgiler";
             // 
             // Btn_guncelle
             // 
-            this.Btn_guncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_guncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btn_guncelle.Appearance.Options.UseFont = true;
-            this.Btn_guncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.Btn_guncelle.Location = new System.Drawing.Point(98, 509);
+            this.Btn_guncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_guncelle.ImageOptions.Image")));
+            this.Btn_guncelle.Location = new System.Drawing.Point(130, 768);
             this.Btn_guncelle.Name = "Btn_guncelle";
-            this.Btn_guncelle.Size = new System.Drawing.Size(154, 32);
+            this.Btn_guncelle.Size = new System.Drawing.Size(203, 32);
             this.Btn_guncelle.TabIndex = 21;
             this.Btn_guncelle.Text = "GÜNCELLE";
             this.Btn_guncelle.Click += new System.EventHandler(this.Btn_guncelle_Click);
             // 
             // Btn_Sil
             // 
-            this.Btn_Sil.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Sil.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btn_Sil.Appearance.Options.UseFont = true;
             this.Btn_Sil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Sil.ImageOptions.Image")));
-            this.Btn_Sil.Location = new System.Drawing.Point(97, 471);
+            this.Btn_Sil.Location = new System.Drawing.Point(129, 716);
             this.Btn_Sil.Name = "Btn_Sil";
-            this.Btn_Sil.Size = new System.Drawing.Size(154, 32);
+            this.Btn_Sil.Size = new System.Drawing.Size(203, 32);
             this.Btn_Sil.TabIndex = 20;
             this.Btn_Sil.Text = "SİL";
             this.Btn_Sil.Click += new System.EventHandler(this.Btn_Sil_Click);
             // 
             // Btn_Kaydet
             // 
-            this.Btn_Kaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btn_Kaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btn_Kaydet.Appearance.Options.UseFont = true;
             this.Btn_Kaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btn_Kaydet.ImageOptions.Image")));
-            this.Btn_Kaydet.Location = new System.Drawing.Point(97, 433);
+            this.Btn_Kaydet.Location = new System.Drawing.Point(130, 664);
             this.Btn_Kaydet.Name = "Btn_Kaydet";
-            this.Btn_Kaydet.Size = new System.Drawing.Size(154, 32);
+            this.Btn_Kaydet.Size = new System.Drawing.Size(203, 32);
             this.Btn_Kaydet.TabIndex = 19;
             this.Btn_Kaydet.Text = "Kaydet";
             this.Btn_Kaydet.Click += new System.EventHandler(this.Btn_Kaydet_Click);
             // 
             // labelControl9
             // 
-            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl9.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl9.Appearance.Options.UseFont = true;
-            this.labelControl9.Location = new System.Drawing.Point(47, 283);
+            this.labelControl9.Location = new System.Drawing.Point(50, 498);
             this.labelControl9.Name = "labelControl9";
-            this.labelControl9.Size = new System.Drawing.Size(44, 18);
+            this.labelControl9.Size = new System.Drawing.Size(55, 23);
             this.labelControl9.TabIndex = 18;
             this.labelControl9.Text = "Detay:";
             // 
             // RchDetay
             // 
-            this.RchDetay.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.RchDetay.Location = new System.Drawing.Point(98, 283);
+            this.RchDetay.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.RchDetay.Location = new System.Drawing.Point(132, 498);
             this.RchDetay.Name = "RchDetay";
-            this.RchDetay.Size = new System.Drawing.Size(154, 135);
+            this.RchDetay.Size = new System.Drawing.Size(203, 143);
             this.RchDetay.TabIndex = 17;
             this.RchDetay.Text = "";
             // 
             // labelControl8
             // 
-            this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl8.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl8.Appearance.Options.UseFont = true;
-            this.labelControl8.Location = new System.Drawing.Point(20, 255);
+            this.labelControl8.Location = new System.Drawing.Point(24, 450);
             this.labelControl8.Name = "labelControl8";
-            this.labelControl8.Size = new System.Drawing.Size(73, 18);
+            this.labelControl8.Size = new System.Drawing.Size(95, 23);
             this.labelControl8.TabIndex = 16;
             this.labelControl8.Text = "Satış Fiyatı:";
             // 
             // Txt_SatisFiyat
             // 
-            this.Txt_SatisFiyat.Location = new System.Drawing.Point(97, 252);
+            this.Txt_SatisFiyat.Location = new System.Drawing.Point(132, 447);
             this.Txt_SatisFiyat.Name = "Txt_SatisFiyat";
-            this.Txt_SatisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Txt_SatisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Txt_SatisFiyat.Properties.Appearance.Options.UseFont = true;
-            this.Txt_SatisFiyat.Size = new System.Drawing.Size(154, 24);
+            this.Txt_SatisFiyat.Size = new System.Drawing.Size(203, 30);
             this.Txt_SatisFiyat.TabIndex = 15;
             // 
             // labelControl7
             // 
-            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl7.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl7.Appearance.Options.UseFont = true;
-            this.labelControl7.Location = new System.Drawing.Point(28, 224);
+            this.labelControl7.Location = new System.Drawing.Point(32, 396);
             this.labelControl7.Name = "labelControl7";
-            this.labelControl7.Size = new System.Drawing.Size(63, 18);
+            this.labelControl7.Size = new System.Drawing.Size(83, 23);
             this.labelControl7.TabIndex = 14;
             this.labelControl7.Text = "Alış Fiyatı:";
             // 
             // Txt_AlısFiyat
             // 
-            this.Txt_AlısFiyat.Location = new System.Drawing.Point(97, 221);
+            this.Txt_AlısFiyat.Location = new System.Drawing.Point(132, 393);
             this.Txt_AlısFiyat.Name = "Txt_AlısFiyat";
-            this.Txt_AlısFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Txt_AlısFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Txt_AlısFiyat.Properties.Appearance.Options.UseFont = true;
-            this.Txt_AlısFiyat.Size = new System.Drawing.Size(154, 24);
+            this.Txt_AlısFiyat.Size = new System.Drawing.Size(203, 30);
             this.Txt_AlısFiyat.TabIndex = 13;
             // 
             // Nur_Adet
             // 
-            this.Nur_Adet.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.Nur_Adet.Location = new System.Drawing.Point(98, 189);
+            this.Nur_Adet.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Nur_Adet.Location = new System.Drawing.Point(131, 340);
             this.Nur_Adet.Name = "Nur_Adet";
-            this.Nur_Adet.Size = new System.Drawing.Size(153, 26);
+            this.Nur_Adet.Size = new System.Drawing.Size(203, 30);
             this.Nur_Adet.TabIndex = 12;
             // 
             // labelControl6
             // 
-            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl6.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl6.Appearance.Options.UseFont = true;
-            this.labelControl6.Location = new System.Drawing.Point(58, 191);
+            this.labelControl6.Location = new System.Drawing.Point(60, 342);
             this.labelControl6.Name = "labelControl6";
-            this.labelControl6.Size = new System.Drawing.Size(35, 18);
+            this.labelControl6.Size = new System.Drawing.Size(45, 23);
             this.labelControl6.TabIndex = 11;
             this.labelControl6.Text = "Adet:";
             // 
             // msk_Yıl
             // 
-            this.msk_Yıl.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.msk_Yıl.Location = new System.Drawing.Point(98, 157);
+            this.msk_Yıl.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.msk_Yıl.Location = new System.Drawing.Point(131, 291);
             this.msk_Yıl.Mask = "0000";
             this.msk_Yıl.Name = "msk_Yıl";
-            this.msk_Yıl.Size = new System.Drawing.Size(153, 26);
+            this.msk_Yıl.Size = new System.Drawing.Size(203, 30);
             this.msk_Yıl.TabIndex = 10;
             this.msk_Yıl.ValidatingType = typeof(int);
             // 
             // labelControl5
             // 
-            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl5.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl5.Appearance.Options.UseFont = true;
-            this.labelControl5.Location = new System.Drawing.Point(72, 160);
+            this.labelControl5.Location = new System.Drawing.Point(74, 294);
             this.labelControl5.Name = "labelControl5";
-            this.labelControl5.Size = new System.Drawing.Size(19, 18);
+            this.labelControl5.Size = new System.Drawing.Size(26, 23);
             this.labelControl5.TabIndex = 9;
             this.labelControl5.Text = "Yıl:";
             // 
             // labelControl4
             // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Location = new System.Drawing.Point(48, 103);
+            this.labelControl4.Location = new System.Drawing.Point(51, 179);
             this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(45, 18);
+            this.labelControl4.Size = new System.Drawing.Size(58, 23);
             this.labelControl4.TabIndex = 7;
             this.labelControl4.Text = "Marka:";
             // 
             // Txt_Marka
             // 
-            this.Txt_Marka.Location = new System.Drawing.Point(98, 97);
+            this.Txt_Marka.Location = new System.Drawing.Point(132, 173);
             this.Txt_Marka.Name = "Txt_Marka";
-            this.Txt_Marka.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Txt_Marka.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Txt_Marka.Properties.Appearance.Options.UseFont = true;
-            this.Txt_Marka.Size = new System.Drawing.Size(154, 24);
+            this.Txt_Marka.Size = new System.Drawing.Size(203, 30);
             this.Txt_Marka.TabIndex = 6;
             // 
             // labelControl3
             // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Location = new System.Drawing.Point(71, 73);
+            this.labelControl3.Location = new System.Drawing.Point(71, 122);
             this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(22, 18);
+            this.labelControl3.Size = new System.Drawing.Size(29, 23);
             this.labelControl3.TabIndex = 5;
             this.labelControl3.Text = "Ad:";
             // 
             // Txt_Ad
             // 
-            this.Txt_Ad.Location = new System.Drawing.Point(98, 67);
+            this.Txt_Ad.Location = new System.Drawing.Point(132, 116);
             this.Txt_Ad.Name = "Txt_Ad";
-            this.Txt_Ad.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Txt_Ad.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Txt_Ad.Properties.Appearance.Options.UseFont = true;
-            this.Txt_Ad.Size = new System.Drawing.Size(154, 24);
+            this.Txt_Ad.Size = new System.Drawing.Size(203, 30);
             this.Txt_Ad.TabIndex = 4;
             // 
             // labelControl2
             // 
-            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl2.Appearance.Options.UseFont = true;
-            this.labelControl2.Location = new System.Drawing.Point(50, 133);
+            this.labelControl2.Location = new System.Drawing.Point(51, 233);
             this.labelControl2.Name = "labelControl2";
-            this.labelControl2.Size = new System.Drawing.Size(43, 18);
+            this.labelControl2.Size = new System.Drawing.Size(57, 23);
             this.labelControl2.TabIndex = 3;
             this.labelControl2.Text = "Model:";
             // 
             // Txt_Model
             // 
-            this.Txt_Model.Location = new System.Drawing.Point(98, 127);
+            this.Txt_Model.Location = new System.Drawing.Point(130, 227);
             this.Txt_Model.Name = "Txt_Model";
-            this.Txt_Model.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Txt_Model.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Txt_Model.Properties.Appearance.Options.UseFont = true;
-            this.Txt_Model.Size = new System.Drawing.Size(154, 24);
+            this.Txt_Model.Size = new System.Drawing.Size(203, 30);
             this.Txt_Model.TabIndex = 2;
             // 
             // labelControl1
             // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl1.Appearance.Options.UseFont = true;
-            this.labelControl1.Location = new System.Drawing.Point(53, 40);
+            this.labelControl1.Location = new System.Drawing.Point(56, 58);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(40, 18);
+            this.labelControl1.Size = new System.Drawing.Size(50, 23);
             this.labelControl1.TabIndex = 1;
             this.labelControl1.Text = " KOD:";
             // 
             // Txt_Id
             // 
-            this.Txt_Id.Location = new System.Drawing.Point(98, 37);
+            this.Txt_Id.Location = new System.Drawing.Point(132, 55);
             this.Txt_Id.Name = "Txt_Id";
-            this.Txt_Id.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Txt_Id.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Txt_Id.Properties.Appearance.Options.UseFont = true;
-            this.Txt_Id.Size = new System.Drawing.Size(154, 24);
+            this.Txt_Id.Size = new System.Drawing.Size(203, 30);
             this.Txt_Id.TabIndex = 0;
             // 
             // Frm_Urunler
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1066, 561);
+            this.ClientSize = new System.Drawing.Size(1934, 861);
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "Frm_Urunler";

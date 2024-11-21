@@ -1,7 +1,7 @@
 ﻿
 namespace Ticari_Otomasyon
 {
-    partial class Form1
+    partial class Frm_AnaSayfa
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace Ticari_Otomasyon
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Frm_AnaSayfa));
             this.ribbonControl1 = new DevExpress.XtraBars.Ribbon.RibbonControl();
             this.Btn_Urunler = new DevExpress.XtraBars.BarButtonItem();
             this.Btn_Stoklar = new DevExpress.XtraBars.BarButtonItem();
@@ -114,6 +114,7 @@ namespace Ticari_Otomasyon
             this.Btn_Musterler.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btn_Musterler.ItemAppearance.Normal.Options.UseFont = true;
             this.Btn_Musterler.Name = "Btn_Musterler";
+            this.Btn_Musterler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Btn_Musterler_ItemClick);
             // 
             // Btn_Firmalar
             // 
@@ -254,20 +255,21 @@ namespace Ticari_Otomasyon
             // 
             this.xtraTabbedMdiManager1.MdiParent = this;
             // 
-            // Form1
+            // Frm_AnaSayfa
             // 
             this.AllowFormGlass = DevExpress.Utils.DefaultBoolean.False;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1072, 715);
+            this.ClientSize = new System.Drawing.Size(1072, 695);
             this.Controls.Add(this.ribbonControl1);
             this.FormBorderEffect = DevExpress.XtraEditors.FormBorderEffect.None;
-            this.IconOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("Form1.IconOptions.SvgImage")));
+            this.IconOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("Frm_AnaSayfa.IconOptions.SvgImage")));
             this.IsMdiContainer = true;
-            this.Name = "Form1";
+            this.Name = "Frm_AnaSayfa";
             this.Ribbon = this.ribbonControl1;
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TİCARİ OTOMASYON";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.behaviorManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).EndInit();
