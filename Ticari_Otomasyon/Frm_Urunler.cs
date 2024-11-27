@@ -22,7 +22,6 @@ namespace Ticari_Otomasyon
             gridControl1.DataSource = dt;
 
 
-            //gridView1.Columns["ID"].Visible = false;
 
             gridView1.Columns["URUNAD"].Caption = "ÜRÜN ADI";
             gridView1.Columns["ID"].Caption = "ÜRÜN Kodu";
@@ -157,5 +156,6 @@ namespace Ticari_Otomasyon
                 XtraMessageBox.Show("Kayıt sırasında bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
     }
 }

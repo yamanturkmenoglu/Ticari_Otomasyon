@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ticari_Otomasyon
 {
-    public partial class Form1 : DevExpress.XtraBars.Ribbon.RibbonForm
+    public partial class Frm_AnaSayfa : DevExpress.XtraBars.Ribbon.RibbonForm
     {
-        public Form1()
+        public Frm_AnaSayfa()
         {
             InitializeComponent();
         }
@@ -30,6 +30,13 @@ namespace Ticari_Otomasyon
                 Frm.Show();
            
         }
+        Frm_Musteriler Frm2;
+        private void Btn_Musterler_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm2 = new Frm_Musteriler();
+            Frm2.MdiParent = this;
+            Frm2.Show();
+        }
     }
-    //yuyuyu
+   
 }
