@@ -94,6 +94,12 @@
     <Compile Include="Frm_AnaSayfa.Designer.cs">
       <DependentUpon>Frm_AnaSayfa.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Firmalar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Firmalar.Designer.cs">
+      <DependentUpon>Frm_Firmalar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Musteriler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,9 @@
     <Compile Include="SqlConnection.cs" />
     <EmbeddedResource Include="Frm_AnaSayfa.resx">
       <DependentUpon>Frm_AnaSayfa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Firmalar.resx">
+      <DependentUpon>Frm_Firmalar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Musteriler.resx">
       <DependentUpon>Frm_Musteriler.cs</DependentUpon>
