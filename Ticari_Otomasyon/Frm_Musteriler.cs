@@ -187,5 +187,7 @@ namespace Ticari_Otomasyon
                 XtraMessageBox.Show("Kayıt sırasında bir hata oluştu: " + ex.Message, "Hata", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+      
     }
 }

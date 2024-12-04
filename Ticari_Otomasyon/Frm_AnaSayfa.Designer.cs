@@ -126,6 +126,7 @@ namespace Ticari_Otomasyon
             this.Btn_Firmalar.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btn_Firmalar.ItemAppearance.Normal.Options.UseFont = true;
             this.Btn_Firmalar.Name = "Btn_Firmalar";
+            this.Btn_Firmalar.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Btn_Firmalar_ItemClick);
             // 
             // Btn_Personeller
             // 

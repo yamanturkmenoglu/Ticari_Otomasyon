@@ -37,6 +37,13 @@ namespace Ticari_Otomasyon
             Frm2.MdiParent = this;
             Frm2.Show();
         }
+        Frm_Firmalar Frm3;
+        private void Btn_Firmalar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm3 = new Frm_Firmalar();
+            Frm3.MdiParent = this;
+            Frm3.Show();
+        }
     }
    
 }
