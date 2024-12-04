@@ -44,6 +44,13 @@ namespace Ticari_Otomasyon
             Frm3.MdiParent = this;
             Frm3.Show();
         }
+        Frm_Personeller Frm4;
+        private void Btn_Personeller_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Frm4 = new Frm_Personeller();
+            Frm4.MdiParent = this;
+            Frm4.Show();
+        }
     }
    
 }
