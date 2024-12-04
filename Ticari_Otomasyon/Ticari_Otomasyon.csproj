@@ -106,6 +106,12 @@
     <Compile Include="Frm_Musteriler.Designer.cs">
       <DependentUpon>Frm_Musteriler.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_Personeller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Personeller.Designer.cs">
+      <DependentUpon>Frm_Personeller.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Urunler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +129,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Musteriler.resx">
       <DependentUpon>Frm_Musteriler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Personeller.resx">
+      <DependentUpon>Frm_Personeller.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Urunler.resx">
       <DependentUpon>Frm_Urunler.cs</DependentUpon>
