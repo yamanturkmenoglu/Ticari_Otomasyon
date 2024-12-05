@@ -194,6 +194,7 @@ namespace Ticari_Otomasyon
             this.Btn_Rehber.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btn_Rehber.ItemAppearance.Normal.Options.UseFont = true;
             this.Btn_Rehber.Name = "Btn_Rehber";
+            this.Btn_Rehber.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Btn_Rehber_ItemClick);
             // 
             // Btn_Faturalar
             // 
