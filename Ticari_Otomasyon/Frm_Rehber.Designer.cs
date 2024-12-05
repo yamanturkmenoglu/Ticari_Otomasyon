@@ -140,7 +140,7 @@ namespace Ticari_Otomasyon
             this.ClientSize = new System.Drawing.Size(1066, 561);
             this.Controls.Add(this.xtraTabControl1);
             this.Name = "Frm_Rehber";
-            this.Text = "Rehber";
+            this.Text = "REHBER";
             this.Load += new System.EventHandler(this.Frm_Rehber_Load);
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabControl1)).EndInit();
             this.xtraTabControl1.ResumeLayout(false);

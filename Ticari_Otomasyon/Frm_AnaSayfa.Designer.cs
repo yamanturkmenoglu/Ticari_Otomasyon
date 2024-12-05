@@ -79,7 +79,6 @@ namespace Ticari_Otomasyon
             this.ribbonPage1});
             this.ribbonControl1.RibbonStyle = DevExpress.XtraBars.Ribbon.RibbonControlStyle.MacOffice;
             this.ribbonControl1.Size = new System.Drawing.Size(1072, 132);
-            this.ribbonControl1.Click += new System.EventHandler(this.ribbonControl1_Click);
             // 
             // Btn_Urunler
             // 
@@ -150,6 +149,7 @@ namespace Ticari_Otomasyon
             this.Btn_Giderler.ItemAppearance.Normal.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btn_Giderler.ItemAppearance.Normal.Options.UseFont = true;
             this.Btn_Giderler.Name = "Btn_Giderler";
+            this.Btn_Giderler.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.Btn_Giderler_ItemClick);
             // 
             // Btn_Kasa
             // 
