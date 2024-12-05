@@ -100,6 +100,12 @@
     <Compile Include="Frm_Firmalar.Designer.cs">
       <DependentUpon>Frm_Firmalar.cs</DependentUpon>
     </Compile>
+    <Compile Include="Frm_mail.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_mail.Designer.cs">
+      <DependentUpon>Frm_mail.cs</DependentUpon>
+    </Compile>
     <Compile Include="Frm_Musteriler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -111,6 +117,12 @@
     </Compile>
     <Compile Include="Frm_Personeller.Designer.cs">
       <DependentUpon>Frm_Personeller.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Frm_Rehber.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Frm_Rehber.Designer.cs">
+      <DependentUpon>Frm_Rehber.cs</DependentUpon>
     </Compile>
     <Compile Include="Frm_Urunler.cs">
       <SubType>Form</SubType>
@@ -127,11 +139,17 @@
     <EmbeddedResource Include="Frm_Firmalar.resx">
       <DependentUpon>Frm_Firmalar.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Frm_mail.resx">
+      <DependentUpon>Frm_mail.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Frm_Musteriler.resx">
       <DependentUpon>Frm_Musteriler.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Personeller.resx">
       <DependentUpon>Frm_Personeller.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Frm_Rehber.resx">
+      <DependentUpon>Frm_Rehber.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Frm_Urunler.resx">
       <DependentUpon>Frm_Urunler.cs</DependentUpon>

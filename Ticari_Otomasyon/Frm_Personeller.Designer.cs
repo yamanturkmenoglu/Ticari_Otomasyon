@@ -35,6 +35,7 @@ namespace Ticari_Otomasyon
             this.com_ILCE = new DevExpress.XtraEditors.ComboBoxEdit();
             this.com_IL = new DevExpress.XtraEditors.ComboBoxEdit();
             this.msk_TC = new System.Windows.Forms.MaskedTextBox();
+            this.msk_Telefon1 = new System.Windows.Forms.MaskedTextBox();
             this.labelControl11 = new DevExpress.XtraEditors.LabelControl();
             this.labelControl10 = new DevExpress.XtraEditors.LabelControl();
             this.Btn_guncelle = new DevExpress.XtraEditors.SimpleButton();
@@ -56,7 +57,6 @@ namespace Ticari_Otomasyon
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.gridView2 = new DevExpress.XtraGrid.Views.Grid.GridView();
-            this.msk_Telefon1 = new System.Windows.Forms.MaskedTextBox();
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
             this.groupControl1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.Txt_VD.Properties)).BeginInit();
@@ -145,6 +145,15 @@ namespace Ticari_Otomasyon
             this.msk_TC.Size = new System.Drawing.Size(191, 26);
             this.msk_TC.TabIndex = 25;
             this.msk_TC.ValidatingType = typeof(int);
+            // 
+            // msk_Telefon1
+            // 
+            this.msk_Telefon1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.msk_Telefon1.Location = new System.Drawing.Point(98, 127);
+            this.msk_Telefon1.Mask = "(999) 000-0000";
+            this.msk_Telefon1.Name = "msk_Telefon1";
+            this.msk_Telefon1.Size = new System.Drawing.Size(191, 26);
+            this.msk_Telefon1.TabIndex = 24;
             // 
             // labelControl11
             // 
@@ -346,6 +355,10 @@ namespace Ticari_Otomasyon
             // 
             // gridView1
             // 
+            this.gridView1.Appearance.Row.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            this.gridView1.Appearance.Row.Options.UseBackColor = true;
+            this.gridView1.Appearance.Row.Options.UseBorderColor = true;
             this.gridView1.GridControl = this.gridControl1;
             this.gridView1.Name = "gridView1";
             this.gridView1.OptionsView.ShowGroupPanel = false;
@@ -356,15 +369,6 @@ namespace Ticari_Otomasyon
             this.gridView2.GridControl = this.gridControl1;
             this.gridView2.Name = "gridView2";
             // 
-            // msk_Telefon1
-            // 
-            this.msk_Telefon1.Font = new System.Drawing.Font("Tahoma", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.msk_Telefon1.Location = new System.Drawing.Point(98, 127);
-            this.msk_Telefon1.Mask = "(999) 000-0000";
-            this.msk_Telefon1.Name = "msk_Telefon1";
-            this.msk_Telefon1.Size = new System.Drawing.Size(191, 26);
-            this.msk_Telefon1.TabIndex = 24;
-            // 
             // Frm_Personeller
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -373,7 +377,7 @@ namespace Ticari_Otomasyon
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "Frm_Personeller";
-            this.Text = "Frm_Personeller";
+            this.Text = "Personeller";
             this.Load += new System.EventHandler(this.Frm_Personeller_Load);
             ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
             this.groupControl1.ResumeLayout(false);
